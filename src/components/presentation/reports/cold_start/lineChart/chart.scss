@@ -1,0 +1,38 @@
+@import '../../../../../../style/scss/base/_var.scss';
+
+#report-line-chart {
+	text {
+		fill: $regent-gray;
+	}
+	.dot{
+		fill: #fff;
+		stroke-width: 2px;
+	}
+	.dot:hover{
+		fill: #fff;
+		stroke-width: 4px;
+	}
+	.p-line {
+		stroke: $grey;
+	}
+	.domain {
+		stroke-width: 2px;
+		fill: none;
+		stroke: $athens-gray;
+	}
+	.dot.work,.p-line.work{
+		stroke: $cold-start-work;
+	}
+	.dot.communication,.p-line.communication{
+		stroke: $cold-start-communication;
+	}
+	.dot.learning , .p-line.learning{
+		stroke: $cold-start-learning; 
+	}
+	.dot.entertainment,.p-line.entertainment {
+		stroke: $cold-start-entertainment; 
+	}
+	.dot.other,.p-line.other{
+		stroke: $cold-start-other;
+	}
+}

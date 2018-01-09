@@ -1,0 +1,36 @@
+@import '../../../../../../style/scss/base/_var.scss';
+
+#report-time-line {
+	text {
+		fill: $regent-gray;
+	}
+	.domain{
+		fill: $white;
+	}
+	.time-blocks{
+		stroke-width: 8px;
+		//stroke-linecap: round; 
+	}
+	.time-lines.online{
+		stroke-width: 22px;
+		stroke: $green;
+	}
+	.time-lines.cold-start{
+		stroke-width: 13px;
+		stroke: $green;
+		stroke-opacity:0.4;
+	}
+	.time-lines.manual{
+		stroke-width: 22px;
+		stroke: $blue;
+	}
+	.time-lines.offline{
+		stroke-width: 13px;
+		stroke: $red;
+		stroke-opacity:0.4;
+	}
+	.time-lines.unknown{
+		stroke-width: 22px;
+		stroke: #eff1f6;
+	}
+}
