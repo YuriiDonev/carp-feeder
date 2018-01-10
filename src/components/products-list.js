@@ -3,14 +3,24 @@ import { Link } from 'react-router-dom';
 
 import { products } from '../constants/products';
 import SingleProduct from './single-product.js';
-import { Header } from './header.js';
+import { HeaderLight } from './header.js';
 
 class ProductsList extends Component {
+
+	state={
+		transitionClass: 'header',
+	};
+
+	componentDidMount() {
+		setTimeout(() => {
+			this.setState({ transitionClass: 'header-trans' });
+		}, 1000);
+	}
 
 	render() {
 		return (
 		<div className='wrapper'>
-		<Header />
+		<HeaderLight transClass={this.state.transitionClass}  />
 			<div className='products-container'>
 			{
 				products.map((product, index) => {return  <div key={index} className='product'>

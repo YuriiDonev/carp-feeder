@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import _ from 'lodash';
 
 import { products } from '../constants/products.js';
-import { Header } from './header.js';
+import { HeaderDark } from './header.js';
 
 class SingleProduct extends Component {
 
@@ -21,7 +21,7 @@ class SingleProduct extends Component {
 
 		return (
 			<div className='wrapper'>
-				<Header />
+				<HeaderDark />
 				<div className='wrapper-single'>
 				<div className='all-photos'>
 				{	(_.isEmpty(productAddPhotos) || productAddPhotos.length === 1) ? null : <div className='add-photos-container'>

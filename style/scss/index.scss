@@ -13,8 +13,8 @@ html, body {
 body {
 	font: #{$base-font-size}/#{$base-line-height} $base-font-family;
 	color: $text-color;
-	// background: $main-bg;
-	background-color: white;
+	background: $main-bg;
+	// background-color: black;
 	margin: 0;
 }
 
@@ -120,21 +120,38 @@ body {
 	height: 170px;
 	margin: 10px 0px 20px 0px;
 	background-image: url('/style/imgs/underwater.jpg');
-	background-position: center;
+	background-position: bottom;
 	background-size: 100% auto;
 	.header-capr-logo {
 		height: 100%;
 		max-height: 150px;
+		padding: 9px 0px 0px 20px;
 	}
+	-webkit-transition: background-position 10s; /* Safari */
+	transition: background-position 10s;
 }
 
-// @mixin background($imgpath,$position:0 0,$repeat: no-repeat) {
-//     background: {
-//         image: url($imgpath);
-//         position: $position;
-//         repeat: $repeat;
-//     }
-// }
-// .header {
-// 	@include background('/style/imgs/underwater.jpg');
-// }
+.header-trans {
+	height: 170px;
+	margin: 10px 0px 20px 0px;
+	background-image: url('/style/imgs/underwater.jpg');
+	background-position: top;
+	background-size: 100% auto;
+	.header-capr-logo {
+		height: 100%;
+		max-height: 150px;
+		padding: 9px 0px 0px 20px;
+	}
+	-webkit-transition: background-position 10s; /* Safari */
+	transition: background-position 10s;
+}
+
+.header-dark {
+	height: 140px;
+	margin: 0px 0px 15px 0px;
+	.header-carp-logo-dark {
+		height: 100%;
+		max-height: 140px;
+		padding: 9px 0px 0px 20px;
+	}
+}
