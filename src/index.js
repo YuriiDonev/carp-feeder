@@ -14,7 +14,6 @@ import '../style/scss/index.scss';
 
 import ProductsList from './components/products-list.js';
 import SingleProduct from './components/single-product.js';
-import RigsComponentsList from './components/rigs-components-list.js';
 
 ReactDOM.render(
 	<HashRouter>

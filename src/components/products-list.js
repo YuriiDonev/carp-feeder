@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { products } from '../constants/products';
 import SingleProduct from './single-product.js';
 import { HeaderLight } from './header.js';
+import { Footer } from './footer.js';
 
 class ProductsList extends Component {
 
@@ -20,7 +21,7 @@ class ProductsList extends Component {
 	render() {
 		return (
 		<div className='wrapper'>
-		<HeaderLight transClass={this.state.transitionClass}  />
+		<HeaderLight transClass={this.state.transitionClass} />
 			<div className='products-container'>
 			{
 				products.map((product, index) => {return  <div key={index} className='product'>
@@ -35,6 +36,7 @@ class ProductsList extends Component {
 				})
 			}
 			</div>
+			<Footer />
 		</div>
 		);
 	}

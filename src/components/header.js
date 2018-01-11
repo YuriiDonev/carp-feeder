@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export const HeaderLight = (props) => {
 	return (
 		<div className={ props.transClass }>
-			<Link to='/'><img className='header-capr-logo' src='/style/imgs/carp-logo-text.png' /></Link>
+			<img className='header-capr-logo' src='/style/imgs/carp-logo-text.png' />
 		</div>
 	);
 };
