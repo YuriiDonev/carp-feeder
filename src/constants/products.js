@@ -6,8 +6,16 @@ export const products = [
     description: '8 pcs Fishing Terminal Tackle "Pear&Spring 2-F-2 " Carp Feeder set 4 Hooks',
     price: '16.5',
     readyToUse: true,
-    img: ['/style/imgs/products-photo/product1.jpg']
-		// img: ['/fisherman-friend/style/imgs/products-photo/product1.jpg']
+    img: ['/style/imgs/products-photo/product1.jpg'], //img: ['/fisherman-friend/style/imgs/products-photo/product1.jpg']
+		bullets: [
+			'All knots covered by shrink wrap',
+			'hooks - MUSTAD',
+			'basic cord - Nylon thread',
+			'leadcore - POWER PRO',
+			'hooks Size - 10 mm,',
+			'or you can order other available sizes in notes for your order (6, 8, 10, 12 mm), or in your private message. Example 2 pcs - 10 mm, 5 pcs - 6 mm',
+			'made in Ukraine'
+			]
   },
   {
     id: 2,
@@ -15,7 +23,16 @@ export const products = [
     description: '7 pcs Ready Tackle with sinker "Triple Spring+Hard Leader" (3 Hooks)',
     price: '16.75',
     readyToUse: true,
-    img: ['/style/imgs/products-photo/product2.jpg']
+    img: ['/style/imgs/products-photo/product2.jpg'],
+		bullets: [
+			'All knots covered by shrink wrap',
+			'hooks - MUSTAD',
+			'basic cord - Nylon thread',
+			'leadcore - POWER PRO',
+			'hooks Size - 10 mm,',
+			'or you can order other available sizes in notes for your order (6, 8, 10, 12 mm), or in your private message. Example 2 pcs - 10 mm, 5 pcs - 6 mm',
+			'made in Ukraine'
+			]
   },
   {
     id: 3,
@@ -23,7 +40,16 @@ export const products = [
     description: '10 pcs Fishing Terminal Tackle "Spring&Ball 2-F-2 " Carp Feeder set 4 Hooks',
     price: '20.0',
     readyToUse: true,
-    img: ['/style/imgs/products-photo/product3.jpg']
+    img: ['/style/imgs/products-photo/product3.jpg'],
+		bullets: [
+			'All knots covered by shrink wrap',
+			'hooks - MUSTAD',
+			'basic cord - Nylon thread',
+			'leadcore - POWER PRO',
+			'hooks Size - 10 mm,',
+			'or you can order other available sizes in notes for your order (6, 8, 10, 12 mm), or in your private message. Example 2 pcs - 10 mm, 5 pcs - 6 mm',
+			'made in Ukraine'
+			]
   },
   {
     id: 4,
@@ -31,7 +57,16 @@ export const products = [
     description: '10 pcs Ready Fishing Tackle Set "Spring&Ball 1-1-F-2" Feeder with 4 hooks',
     price: '20.25',
     readyToUse: true,
-    img: ['/style/imgs/products-photo/product4.jpg']
+    img: ['/style/imgs/products-photo/product4.jpg'],
+		bullets: [
+			'All knots covered by shrink wrap',
+			'hooks - MUSTAD',
+			'basic cord - Nylon thread',
+			'leadcore - POWER PRO',
+			'hooks Size - 10 mm,',
+			'or you can order other available sizes in notes for your order (6, 8, 10, 12 mm), or in your private message. Example 2 pcs - 10 mm, 5 pcs - 6 mm',
+			'made in Ukraine'
+			]
   },
   {
     id: 5,
@@ -39,7 +74,16 @@ export const products = [
     description: '10 pcs Ready Fishing Tackle "Spring+Ball 1-1-F-1" 3 hooks Feeders set',
     price: '20.0',
     readyToUse: true,
-    img: ['/style/imgs/products-photo/product5.jpg']
+    img: ['/style/imgs/products-photo/product5.jpg'],
+		bullets: [
+			'All knots covered by shrink wrap',
+			'hooks - MUSTAD',
+			'basic cord - Nylon thread',
+			'leadcore - POWER PRO',
+			'hooks Size - 10 mm,',
+			'or you can order other available sizes in notes for your order (6, 8, 10, 12 mm), or in your private message. Example 2 pcs - 10 mm, 5 pcs - 6 mm',
+			'made in Ukraine'
+			]
   },
   {
     id: 6,
@@ -47,7 +91,16 @@ export const products = [
     description: '8 pcs Ready Fishing Tackle "Melon&Spring 1-1-F-2 leaders" Carp Feeder set',
     price: '16.75',
     readyToUse: true,
-    img: ['/style/imgs/products-photo/product6.jpg']
+    img: ['/style/imgs/products-photo/product6.jpg'],
+		bullets: [
+			'All knots covered by shrink wrap',
+			'hooks - MUSTAD',
+			'basic cord - Nylon thread',
+			'leadcore - POWER PRO',
+			'hooks Size - 10 mm,',
+			'or you can order other available sizes in notes for your order (6, 8, 10, 12 mm), or in your private message. Example 2 pcs - 10 mm, 5 pcs - 6 mm',
+			'made in Ukraine'
+			]
   },
   {
     id: 7,
@@ -55,7 +108,16 @@ export const products = [
     description: '8 pcs Ready Fishing Tackle "Melon&Spring 2-F-1 Leaders" 3 hooks Feeder set',
     price: '16.25',
     readyToUse: true,
-    img: ['/style/imgs/products-photo/product7.jpg']
+    img: ['/style/imgs/products-photo/product7.jpg'],
+		bullets: [
+			'All knots covered by shrink wrap',
+			'hooks - MUSTAD',
+			'basic cord - Nylon thread',
+			'leadcore - POWER PRO',
+			'hooks Size - 10 mm,',
+			'or you can order other available sizes in notes for your order (6, 8, 10, 12 mm), or in your private message. Example 2 pcs - 10 mm, 5 pcs - 6 mm',
+			'made in Ukraine'
+			]
   },
   {
     id: 8,
@@ -63,7 +125,16 @@ export const products = [
     description: '8 pcs Fishing Terminal Tackle "Melon&Spring 2-F-2 " Carp Feeder set 4 Hooks',
     price: '16.50',
     readyToUse: true,
-    img: ['/style/imgs/products-photo/product8.jpg']
+    img: ['/style/imgs/products-photo/product8.jpg'],
+		bullets: [
+			'All knots covered by shrink wrap',
+			'hooks - MUSTAD',
+			'basic cord - Nylon thread',
+			'leadcore - POWER PRO',
+			'hooks Size - 10 mm,',
+			'or you can order other available sizes in notes for your order (6, 8, 10, 12 mm), or in your private message. Example 2 pcs - 10 mm, 5 pcs - 6 mm',
+			'made in Ukraine'
+			]
   },
   {
     id: 9,
@@ -71,7 +142,16 @@ export const products = [
     description: '7 pcs Ready Fishing Tackle "Melon&Spring 1-1-F-1" Feeders set (3 hooks)',
     price: '16.50',
     readyToUse: true,
-    img: ['/style/imgs/products-photo/product9.jpg']
+    img: ['/style/imgs/products-photo/product9.jpg'],
+		bullets: [
+			'All knots covered by shrink wrap',
+			'hooks - MUSTAD',
+			'basic cord - Nylon thread',
+			'leadcore - POWER PRO',
+			'hooks Size - 10 mm,',
+			'or you can order other available sizes in notes for your order (6, 8, 10, 12 mm), or in your private message. Example 2 pcs - 10 mm, 5 pcs - 6 mm',
+			'made in Ukraine'
+			]
   },
   {
     id: 10,
@@ -79,7 +159,16 @@ export const products = [
     description: '3 pcs Ready Tackle with sinker "Triple Spring+Hard Leader" (3 Hooks)',
     price: '9.0',
     readyToUse: true,
-    img: ['/style/imgs/products-photo/product10.jpg']
+    img: ['/style/imgs/products-photo/product10.jpg'],
+		bullets: [
+			'All knots covered by shrink wrap',
+			'hooks - MUSTAD',
+			'basic cord - Nylon thread',
+			'leadcore - POWER PRO',
+			'hooks Size - 8 mm,',
+			'or you can order other available sizes in notes for your order (6, 8, 10, 12 mm), or in your private message. Example 2 pcs - 10 mm, 5 pcs - 6 mm',
+			'made in Ukraine'
+			]
   },
   {
     id: 11,
@@ -87,7 +176,16 @@ export const products = [
     description: '3 pcs Ready Fishing Tackle "Melon&Spring 1-1-F-2 leader" Carp Feeder set 4 hooks',
     price: '9.5',
     readyToUse: true,
-    img: ['/style/imgs/products-photo/product11.jpg']
+    img: ['/style/imgs/products-photo/product11.jpg'],
+		bullets: [
+			'All knots covered by shrink wrap',
+			'hooks - MUSTAD',
+			'basic cord - Nylon thread',
+			'leadcore - POWER PRO',
+			'hooks Size - 10 mm,',
+			'or you can order other available sizes in notes for your order (6, 8, 10, 12 mm), or in your private message. Example 2 pcs - 10 mm, 5 pcs - 6 mm',
+			'made in Ukraine'
+			]
   },
   {
     id: 12,
@@ -95,7 +193,16 @@ export const products = [
     description: '3 pcs Fishing Terminal Tackle Spring&Ball 2-F-2 (4 Hooks) Carp Feeder set',
     price: '9.5',
     readyToUse: true,
-    img: ['/style/imgs/products-photo/product12.jpg']
+    img: ['/style/imgs/products-photo/product12.jpg'],
+		bullets: [
+			'All knots covered by shrink wrap',
+			'hooks - MUSTAD',
+			'basic cord - Nylon thread',
+			'leadcore - POWER PRO',
+			'hooks Size - 10 mm,',
+			'or you can order other available sizes in notes for your order (6, 8, 10, 12 mm), or in your private message. Example 2 pcs - 10 mm, 5 pcs - 6 mm',
+			'made in Ukraine'
+			]
   },
   {
     id: 13,
@@ -103,7 +210,16 @@ export const products = [
     description: '7 pcs Ready Tackle with Sinker "Triple Spring+Soft Leader" Feeders set 3 hooks',
     price: '7.5',
     readyToUse: true,
-    img: ['/style/imgs/products-photo/product13.jpg']
+    img: ['/style/imgs/products-photo/product13.jpg'],
+		bullets: [
+			'All knots covered by shrink wrap',
+			'hooks - MUSTAD',
+			'basic cord - Nylon thread',
+			'leadcore - POWER PRO',
+			'hooks Size - 8 mm,',
+			'or you can order other available sizes in notes for your order (6, 8, 10, 12 mm), or in your private message. Example 2 pcs - 10 mm, 5 pcs - 6 mm',
+			'made in Ukraine'
+			]
   },
   {
     id: 14,
@@ -111,7 +227,16 @@ export const products = [
     description: 'Ready Fishing Tackle "Spring&Ball 1-F-2 Leaders" Feeder set (7 pcs x 3hooks)',
     price: '7.5',
     readyToUse: true,
-    img: ['/style/imgs/products-photo/product14.jpg']
+    img: ['/style/imgs/products-photo/product14.jpg'],
+		bullets: [
+			'All knots covered by shrink wrap',
+			'hooks - MUSTAD',
+			'basic cord - Nylon thread',
+			'leadcore - POWER PRO',
+			'hooks Size - 10 mm,',
+			'or you can order other available sizes in notes for your order (6, 8, 10, 12 mm), or in your private message. Example 2 pcs - 10 mm, 5 pcs - 6 mm',
+			'made in Ukraine'
+			]
   },
   {
     id: 15,
@@ -119,7 +244,16 @@ export const products = [
     description: '10 pcs "Pear&Spring" Feeder Carp Fishing Tackle (20g/0.7oz)',
     price: '9.5',
     readyToUse: false,
-    img: ['/style/imgs/products-photo/product15.jpg']
+    img: [
+			'/style/imgs/products-photo/product15-1.jpg',
+			'/style/imgs/products-photo/product15-2.jpg',
+			'/style/imgs/products-photo/product15-3.jpg'
+			],
+		bullets: [
+				'weight: 20g/0.7oz',
+				'materials: brass, lead, plastic',
+				'made in Ukraine',
+			]
   },
   {
     id: 16,
@@ -134,7 +268,13 @@ export const products = [
       '/style/imgs/products-photo/product16-4.jpg',
       '/style/imgs/products-photo/product16-5.jpg',
       '/style/imgs/products-photo/product16-6.jpg'
-      ]
+		],
+		bullets: [
+			'weight: 1.7g',
+			'size: 30 x 10 mm',
+			'materials: brass',
+			'made in Ukraine'
+		]
   },
   {
     id: 17,
@@ -142,7 +282,13 @@ export const products = [
     description: '40 pcs "Black Spring" Feeder Fishing Tackle (55mm / 2inch, 0.17Oz)',
     price: '18.0',
     readyToUse: false,
-    img: ['/style/imgs/products-photo/product17.jpg']
+    img: ['/style/imgs/products-photo/product17.jpg'],
+		bullets: [
+			'weight: 5g/0.17Oz',
+			'length: 55 mm / 2 inch',
+			'materials: painted brass, plastic',
+			'made in Ukraine'
+			]
   },
   {
     id: 18,
@@ -157,7 +303,13 @@ export const products = [
       '/style/imgs/products-photo/product16-4.jpg',
       '/style/imgs/products-photo/product16-5.jpg',
       '/style/imgs/products-photo/product16-6.jpg'
-      ]
+		],
+		bullets: [
+			'weight: 1.7g',
+			'size: 30 x 10 mm',
+			'materials: brass',
+			'made in Ukraine'
+			]
   },
   {
     id: 19,
@@ -165,7 +317,12 @@ export const products = [
     description: '10 pcs "Melon&Spring" Feeder Carp Fishing Tackle (20g/0.7oz)',
     price: '9.0',
     readyToUse: false,
-    img: ['/style/imgs/products-photo/product19.jpg']
+    img: ['/style/imgs/products-photo/product19.jpg'],
+		bullets: [
+			'weight: 20g/0.7oz',
+			'materials: brass, lead, plastic',
+			'made in Ukraine'
+			]
   },
   {
     id: 20,
@@ -176,7 +333,12 @@ export const products = [
     img: [
       '/style/imgs/products-photo/product20-1.jpg',
       '/style/imgs/products-photo/product20-2.jpg',
-      ]
+		],
+		bullets: [
+			'weight: 20g/0.7oz',
+			'materials: painted brass, lead, plastic',
+			'made in Ukraine'
+			]
   },
   {
     id: 21,
@@ -187,7 +349,12 @@ export const products = [
     img: [
       '/style/imgs/products-photo/product21-1.jpg',
       '/style/imgs/products-photo/product21-2.jpg',
-      ]
+		],
+		bullets: [
+			'weight: 20g/0.7oz',
+			'materials: painted brass, lead, plastic',
+			'made in Ukraine'
+			]
   },
   {
     id: 22,
@@ -195,6 +362,11 @@ export const products = [
     description: '10 pcs "Spring&Ball" Feeder Carp Fishing Tackle (20g/0.7oz)',
     price: '9.0',
     readyToUse: false,
-    img: ['/style/imgs/products-photo/product22.jpg']
+    img: ['/style/imgs/products-photo/product22.jpg'],
+		bullets: [
+			'weight: 20g/0.7oz',
+			'materials: brass, lead, plastic',
+			'made in Ukraine'
+			]
   },
 ];

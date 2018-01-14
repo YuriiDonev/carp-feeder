@@ -12,28 +12,37 @@ class SingleProduct extends Component {
 		photoID: 0,
 		increased: false,
 		lightboxIsOpen: false,
+		currentImage: 0,
 	 };
 
 	 closeLightbox = () => {
-		 this.setState({lightboxIsOpen: false});
+		 this.setState({lightboxIsOpen: false, currentImage: 0});
 	 }
 
-	 openLightbox = () => {
-		 this.setState({lightboxIsOpen: true});
+	 openLightbox = (id) => {
+		 this.setState({lightboxIsOpen: true, currentImage: id});
 	 }
 
+	gotoPrevious = () => {
+		this.setState((prevState, props) => (
+			{currentImage: prevState.currentImage - 1}
+		));
+	}
+	gotoNext = () => {
+		this.setState((prevState, props) => (
+			{currentImage: prevState.currentImage + 1}
+		));
+	}
 
 	renderPhoto = (imgID) => {
 		this.setState({photoID: imgID});
 	}
 
 	render() {
-		console.log('products ', products);
+
 		const product = products[this.props.match.params.productID-1];
 		const productAddPhotos = product.img.slice();
-		console.log('product ', product);
-		const arr = [{src: product.img[this.state.photoID]}];
-		console.log('arr ', arr);
+		const lightboxImages = product.img.map(img => ({src: img}) );
 
 		return (
 			<div className='wrapper'>
@@ -49,21 +58,33 @@ class SingleProduct extends Component {
 					</div>
 				}
 				<div><img className='single-product-main-image' src={product.img[this.state.photoID]}
-					onClick={this.openLightbox}
+					onClick={this.openLightbox.bind(this, this.state.photoID)}
 				/></div>
+				<Lightbox
+					images={lightboxImages}
+					currentImage={this.state.currentImage}
+					isOpen={this.state.lightboxIsOpen}
+					onClose={this.closeLightbox}
+					onClickPrev={this.gotoPrevious}
+					onClickNext={this.gotoNext}
+				/>
 				</div>
 				<div className='description-block'>
 					<div>{product.description}</div>
 					<div className='product-price'>{product.price} $</div>
 					<div className='buy-link'><a className='highlite2' href={product.link} target="_blank">Buy It Now</a></div>
+					<div className='bullets'>
+						<ul>
+						{
+							product.bullets.map((bullet, index) => {
+								return <li key={index}>{bullet}</li>
+							})
+						}
+						</ul>
+					</div>
 				</div>
 				</div>
 				<Footer />
-						<Lightbox
-			        images={arr}
-			        isOpen={this.state.lightboxIsOpen}
-			        onClose={this.closeLightbox}
-		      />
 			</div>
 		);
 	}

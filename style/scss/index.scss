@@ -101,6 +101,10 @@ body {
     max-width: 500px;
 }
 
+.single-product-main-image:hover {
+	cursor: pointer;
+}
+
 .add-photos-container {
   display: flex;
   flex-direction: column;

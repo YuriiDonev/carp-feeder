@@ -1,8 +1,8 @@
 {
-  "name": "timeguard-dashboard",
+  "name": "carp-feeder",
   "version": "1.0.0",
-  "homepage": "https://yuriidonev.github.io/fisherman-friend/",
-  "description": "Fisherman Friend",
+  "homepage": "https://yuriidonev.github.io/carp-feeder/",
+  "description": "Carp Feeder",
   "main": "index.js",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --config webpack.config.dev.js",

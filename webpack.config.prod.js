@@ -17,7 +17,7 @@ module.exports = {
   output: {
     filename: 'bundle.js',
     path: path.join(__dirname, 'dist'),
-    publicPath: '/fisherman-friend', //publicPath: '/admin',
+    publicPath: '/carp-feeder', //publicPath: '/admin',
   },
 
   module: {
@@ -82,8 +82,8 @@ module.exports = {
     }),
     new CopyWebpackPlugin([
       'index.html',
-      'style/fonts/**/*',
-      'style/imgs/**/*',
+      'carp-feeder/style/fonts/**/*', // 'style/fonts/**/*'
+      'carp-feeder/style/imgs/**/*', // 'style/imgs/**/*'
       { from: 'style/application.css', to: 'style/application.css' },
     ]),
     new webpack.DefinePlugin({
