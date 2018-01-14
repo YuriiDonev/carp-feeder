@@ -1,8 +1,7 @@
-# Timeguard Dashboard
+# Carp feeder
 
 ```
 	> npm install
-	> bower install
 	> npm start
-	> open localhost:8080
+	> open localhost:8081
 ```
