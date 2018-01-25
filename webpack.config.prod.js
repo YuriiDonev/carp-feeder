@@ -82,8 +82,8 @@ module.exports = {
     }),
     new CopyWebpackPlugin([
       'index.html',
-      'carp-feeder/style/fonts/**/*', // 'style/fonts/**/*'
-      'carp-feeder/style/imgs/**/*', // 'style/imgs/**/*'
+      'style/fonts/**/*',
+      'style/imgs/**/*',
       { from: 'style/application.css', to: 'style/application.css' },
     ]),
     new webpack.DefinePlugin({

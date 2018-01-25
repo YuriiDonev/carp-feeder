@@ -40,6 +40,8 @@ class SingleProduct extends Component {
 
 	render() {
 
+		console.log('this.props ', this.props);
+
 		const product = products[this.props.match.params.productID-1];
 		const productAddPhotos = product.img.slice();
 		const lightboxImages = product.img.map(img => ({src: img}) );
