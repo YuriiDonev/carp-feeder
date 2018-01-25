@@ -237,9 +237,14 @@ a {
  .header-main {
 	 height: 220px;
 	 margin: 10px 0px 20px 0px;
+	 position: relative;
 		h1 {
 			font-family: "Raleway", sans-serif;
 			color: beige;
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			margin: 0px 10px 6px 0px;
 		}
 		.bgimg {
 				background-image: url('/style/imgs/header1.jpg');
@@ -247,6 +252,17 @@ a {
 				background-position: 0% 62%;
 				background-size: cover;
 			}
+
+		.collection-sort {
+			width: 140px;
+			position: absolute;
+			right: 0;
+			bottom: 0;
+			margin: 0px 200px 9px 0px;
+			label {
+				color: beige;
+			}
+		}
  }
 
 

@@ -42,7 +42,17 @@ class SingleProduct extends Component {
 
 		console.log('this.props ', this.props);
 
-		const product = products[this.props.match.params.productID-1];
+		// const product = products[this.props.match.params.productID-1];
+		const productIdFromURL = +this.props.match.params.productID;
+
+		console.log('productIdFromURL ', productIdFromURL);
+
+		const productInArr = products.filter((p) => {
+			return p.id === productIdFromURL
+		});
+
+		const product = productInArr[0];
+
 		const productAddPhotos = product.img.slice();
 		const lightboxImages = product.img.map(img => ({src: img}) );
 
