@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
-class HeaderMain extends Component {
+class HeaderSingle extends Component {
 
 	state = {
 		showEmail: false
-	}
-
-	choose = (event) => {
-		this.props.chooseSort(event.target.value);
 	}
 
 	toggleEmail = () => {
@@ -35,22 +32,16 @@ class HeaderMain extends Component {
 						</address>
 					</div>
 
-					<div className="w3-display-middle">
-						<h1 className="w3-jumbo w3-animate-top">Carp Feeder</h1>
-						<div className='logo'><img src='/style/imgs/carp-logo-beige.png' title='Carp Feeder' /></div>
-					</div>
-				</div>
-				<div className="collection-sort">
-					<label>Sort by:</label>
-					<select onChange={this.choose}>
-						<option>Default</option>
-			      <option>Price, low to high</option>
-			      <option>Price, high to low</option>
-			    </select>
+					<Link to='/'>
+						<div className="w3-display-middle">
+							<h1 className="w3-jumbo w3-animate-top">Carp Feeder</h1>
+							<div className='logo'><img src='/style/imgs/carp-logo-beige.png' title='Carp Feeder' /></div>
+						</div>
+					</Link>
 				</div>
 			</div>
 		);
 	}
 }
 
-export default HeaderMain;
+export default HeaderSingle;

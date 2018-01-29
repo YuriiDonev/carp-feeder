@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom';
 import { products } from '../constants/products';
 
 import HeaderMain from './header.js';
-import { Footer } from './footer.js';
 
 
 class ProductsList extends Component {
@@ -58,7 +57,9 @@ class ProductsList extends Component {
 			}
 			</section>
 			</div>
-			<Footer />
+			<div className='footer'>
+				<div className='footer-text'>{'Carp Feeder by DYV'} {'\u00A9'} {'2017'}</div>
+			</div>
 		</div>
 		);
 	}

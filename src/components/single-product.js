@@ -3,8 +3,7 @@ import _ from 'lodash';
 import Lightbox from 'react-images';
 
 import { products } from '../constants/products.js';
-import { HeaderDark } from './header.js';
-import { Footer } from './footer.js';
+import HeaderSingle from './header-single.js';
 
 class SingleProduct extends Component {
 
@@ -40,13 +39,7 @@ class SingleProduct extends Component {
 
 	render() {
 
-		console.log('this.props ', this.props);
-
-		// const product = products[this.props.match.params.productID-1];
 		const productIdFromURL = +this.props.match.params.productID;
-
-		console.log('productIdFromURL ', productIdFromURL);
-
 		const productInArr = products.filter((p) => {
 			return p.id === productIdFromURL
 		});
@@ -58,7 +51,7 @@ class SingleProduct extends Component {
 
 		return (
 			<div className='wrapper'>
-				<HeaderDark />
+				<HeaderSingle />
 				<div className='wrapper-single'>
 				<div className='all-photos'>
 				{	(_.isEmpty(productAddPhotos) || productAddPhotos.length === 1) ? null : <div className='add-photos-container'>
@@ -96,7 +89,6 @@ class SingleProduct extends Component {
 					</div>
 				</div>
 				</div>
-				<Footer />
 			</div>
 		);
 	}
