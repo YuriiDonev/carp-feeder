@@ -31,7 +31,7 @@ class HeaderMain extends Component {
 
 					<div className={`email-${emailActive}`} onClick={this.toggleEmail}>
 						<address>
-							<a href="mailto:yurii.donev@gmail.com">{'yurii.donev@gmail.com'}</a>
+							<a href="mailto:k.savenkov@yahoo.com">{'k.savenkov@yahoo.com'}</a>
 						</address>
 					</div>
 

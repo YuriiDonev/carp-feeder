@@ -278,7 +278,7 @@ a {
 			right: 0;
 			top: 0;
 			margin: 10px 40px 0px 0px;
-      width: 16%;
+      width: 15%;
       overflow:hidden;
 			a {
 				color: beige;
@@ -380,4 +380,8 @@ a {
 
 .description-block {
   margin-left: 20px;
+}
+
+.background-light {
+  padding-right: 0px !important;
 }
