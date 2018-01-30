@@ -28,14 +28,14 @@ class HeaderSingle extends Component {
 
 					<div className={`email-${emailActive}`} onClick={this.toggleEmail}>
 						<address>
-							<a href="mailto:yurii.donev@gmail.com">{'yurii.donev@gmail.com'}</a>
+							<a href="mailto:k.savenkov@yahoo.com">{'k.savenkov@yahoo.com'}</a>
 						</address>
 					</div>
 
 					<Link to='/'>
 						<div className="w3-display-middle">
 							<h1 className="w3-jumbo w3-animate-top">Carp Feeder</h1>
-							<div className='logo'><img src='/style/imgs/carp-logo-beige.png' title='Carp Feeder' /></div>
+							<div className='logo-single'><img src='/style/imgs/carp-logo-beige.png' /></div>
 						</div>
 					</Link>
 				</div>

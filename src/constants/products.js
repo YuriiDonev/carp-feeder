@@ -11,7 +11,7 @@ export const products = [
 			'All knots covered by shrink wrap',
 			'hooks - MUSTAD',
 			'basic cord - Nylon thread',
-			'leadcore - POWER PRO',
+			'lead material from terminal to hook from terminal to hook - POWER PRO',
 			'hooks Size - 10 mm,',
 			'or you can order other available sizes in notes for your order (6, 8, 10, 12 mm), or in your private message. Example 2 pcs - 10 mm, 5 pcs - 6 mm',
 			'made in Ukraine'
@@ -28,7 +28,7 @@ export const products = [
 			'All knots covered by shrink wrap',
 			'hooks - MUSTAD',
 			'basic cord - Nylon thread',
-			'leadcore - POWER PRO',
+			'lead material from terminal to hook - POWER PRO',
 			'hooks Size - 10 mm,',
 			'or you can order other available sizes in notes for your order (6, 8, 10, 12 mm), or in your private message. Example 2 pcs - 10 mm, 5 pcs - 6 mm',
 			'made in Ukraine'
@@ -45,7 +45,7 @@ export const products = [
 			'All knots covered by shrink wrap',
 			'hooks - MUSTAD',
 			'basic cord - Nylon thread',
-			'leadcore - POWER PRO',
+			'lead material from terminal to hook - POWER PRO',
 			'hooks Size - 10 mm,',
 			'or you can order other available sizes in notes for your order (6, 8, 10, 12 mm), or in your private message. Example 2 pcs - 10 mm, 5 pcs - 6 mm',
 			'made in Ukraine'
@@ -62,7 +62,7 @@ export const products = [
 			'All knots covered by shrink wrap',
 			'hooks - MUSTAD',
 			'basic cord - Nylon thread',
-			'leadcore - POWER PRO',
+			'lead material from terminal to hook - POWER PRO',
 			'hooks Size - 10 mm,',
 			'or you can order other available sizes in notes for your order (6, 8, 10, 12 mm), or in your private message. Example 2 pcs - 10 mm, 5 pcs - 6 mm',
 			'made in Ukraine'
@@ -79,7 +79,7 @@ export const products = [
 			'All knots covered by shrink wrap',
 			'hooks - MUSTAD',
 			'basic cord - Nylon thread',
-			'leadcore - POWER PRO',
+			'lead material from terminal to hook - POWER PRO',
 			'hooks Size - 10 mm,',
 			'or you can order other available sizes in notes for your order (6, 8, 10, 12 mm), or in your private message. Example 2 pcs - 10 mm, 5 pcs - 6 mm',
 			'made in Ukraine'
@@ -96,7 +96,7 @@ export const products = [
 			'All knots covered by shrink wrap',
 			'hooks - MUSTAD',
 			'basic cord - Nylon thread',
-			'leadcore - POWER PRO',
+			'lead material from terminal to hook - POWER PRO',
 			'hooks Size - 10 mm,',
 			'or you can order other available sizes in notes for your order (6, 8, 10, 12 mm), or in your private message. Example 2 pcs - 10 mm, 5 pcs - 6 mm',
 			'made in Ukraine'
@@ -113,7 +113,7 @@ export const products = [
 			'All knots covered by shrink wrap',
 			'hooks - MUSTAD',
 			'basic cord - Nylon thread',
-			'leadcore - POWER PRO',
+			'lead material from terminal to hook - POWER PRO',
 			'hooks Size - 10 mm,',
 			'or you can order other available sizes in notes for your order (6, 8, 10, 12 mm), or in your private message. Example 2 pcs - 10 mm, 5 pcs - 6 mm',
 			'made in Ukraine'
@@ -130,7 +130,7 @@ export const products = [
 			'All knots covered by shrink wrap',
 			'hooks - MUSTAD',
 			'basic cord - Nylon thread',
-			'leadcore - POWER PRO',
+			'lead material from terminal to hook - POWER PRO',
 			'hooks Size - 10 mm,',
 			'or you can order other available sizes in notes for your order (6, 8, 10, 12 mm), or in your private message. Example 2 pcs - 10 mm, 5 pcs - 6 mm',
 			'made in Ukraine'
@@ -147,7 +147,7 @@ export const products = [
 			'All knots covered by shrink wrap',
 			'hooks - MUSTAD',
 			'basic cord - Nylon thread',
-			'leadcore - POWER PRO',
+			'lead material from terminal to hook - POWER PRO',
 			'hooks Size - 10 mm,',
 			'or you can order other available sizes in notes for your order (6, 8, 10, 12 mm), or in your private message. Example 2 pcs - 10 mm, 5 pcs - 6 mm',
 			'made in Ukraine'
@@ -164,7 +164,7 @@ export const products = [
 			'All knots covered by shrink wrap',
 			'hooks - MUSTAD',
 			'basic cord - Nylon thread',
-			'leadcore - POWER PRO',
+			'lead material from terminal to hook - POWER PRO',
 			'hooks Size - 8 mm,',
 			'or you can order other available sizes in notes for your order (6, 8, 10, 12 mm), or in your private message. Example 2 pcs - 10 mm, 5 pcs - 6 mm',
 			'made in Ukraine'
@@ -181,7 +181,7 @@ export const products = [
 			'All knots covered by shrink wrap',
 			'hooks - MUSTAD',
 			'basic cord - Nylon thread',
-			'leadcore - POWER PRO',
+			'lead material from terminal to hook - POWER PRO',
 			'hooks Size - 10 mm,',
 			'or you can order other available sizes in notes for your order (6, 8, 10, 12 mm), or in your private message. Example 2 pcs - 10 mm, 5 pcs - 6 mm',
 			'made in Ukraine'
@@ -198,7 +198,7 @@ export const products = [
 			'All knots covered by shrink wrap',
 			'hooks - MUSTAD',
 			'basic cord - Nylon thread',
-			'leadcore - POWER PRO',
+			'lead material from terminal to hook - POWER PRO',
 			'hooks Size - 10 mm,',
 			'or you can order other available sizes in notes for your order (6, 8, 10, 12 mm), or in your private message. Example 2 pcs - 10 mm, 5 pcs - 6 mm',
 			'made in Ukraine'
@@ -215,7 +215,7 @@ export const products = [
 			'All knots covered by shrink wrap',
 			'hooks - MUSTAD',
 			'basic cord - Nylon thread',
-			'leadcore - POWER PRO',
+			'lead material from terminal to hook - POWER PRO',
 			'hooks Size - 8 mm,',
 			'or you can order other available sizes in notes for your order (6, 8, 10, 12 mm), or in your private message. Example 2 pcs - 10 mm, 5 pcs - 6 mm',
 			'made in Ukraine'
@@ -232,7 +232,7 @@ export const products = [
 			'All knots covered by shrink wrap',
 			'hooks - MUSTAD',
 			'basic cord - Nylon thread',
-			'leadcore - POWER PRO',
+			'lead material from terminal to hook - POWER PRO',
 			'hooks Size - 10 mm,',
 			'or you can order other available sizes in notes for your order (6, 8, 10, 12 mm), or in your private message. Example 2 pcs - 10 mm, 5 pcs - 6 mm',
 			'made in Ukraine'

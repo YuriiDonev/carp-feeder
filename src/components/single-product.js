@@ -58,11 +58,12 @@ class SingleProduct extends Component {
 					{
 						productAddPhotos.map((img, index) => {return <div key={index}
 						onClick={this.renderPhoto.bind(this, index)}
-						><img className='add-photos' src={img} /></div>})
+						><img className='add-photos' src={img} title='Click to switch' /></div>})
 					}
 					</div>
 				}
-				<div><img className='single-product-main-image' src={product.img[this.state.photoID]}
+				<div className='main-photo'><img className='single-product-main-image' src={product.img[this.state.photoID]}
+					title='Click to enlarge'
 					onClick={this.openLightbox.bind(this, this.state.photoID)}
 				/></div>
 				<Lightbox
@@ -75,8 +76,8 @@ class SingleProduct extends Component {
 				/>
 				</div>
 				<div className='description-block'>
-					<div>{product.description}</div>
-					<div className='product-price'>{product.price} $</div>
+					<h5>{product.description}</h5>
+					<h6>{product.price} $</h6>
 					<div className='buy-link'><a className='highlite2' href={product.link} target="_blank">Buy It Now</a></div>
 					<div className='bullets'>
 						<ul>
