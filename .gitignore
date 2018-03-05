@@ -1,0 +1,15 @@
+/bower_components
+/node_modules
+npm-debug.log
+package-lock.json
+bundle.js
+bundle.js.map
+dist
+# IntelliJ
+*.iml
+/.idea
+/npm-debug.log.2492231584
+.c9
+
+#OS X
+.DS_Store
