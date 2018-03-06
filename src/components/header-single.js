@@ -35,7 +35,7 @@ class HeaderSingle extends Component {
 					<Link to='/'>
 						<div className="w3-display-middle">
 							<h1 className="w3-jumbo w3-animate-top">Carp Feeder - Ready to Use Tackle</h1>
-							<div className='logo-single'><img src='/style/imgs/carp-logo-beige.png' /></div>
+							<div className='logo-single'><img src='/carp-feeder/style/imgs/carp-logo-beige.png' /></div>
 						</div>
 					</Link>
 				</div>
