@@ -23,7 +23,7 @@ class HeaderSingle extends Component {
 			<div className='header-main'>
 				<div className="bgimg w3-display-container w3-animate-opacity w3-text-white">
 					<div className='contact-us' onClick={this.toggleEmail}>
-						<img src='/style/imgs/envelope2.png' title='Contact Us' />
+						<img src='/carp-feeder/style/imgs/envelope2.png' title='Contact Us' />
 					</div>
 
 					<div className={`email-${emailActive}`} onClick={this.toggleEmail}>
